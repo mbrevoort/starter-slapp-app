@@ -4,4 +4,4 @@ avatar: .beepboop/avatar.png
 
 health_check:
   type: http
-  uri: "/healthz"
+  uri: /healthz
