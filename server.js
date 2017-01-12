@@ -117,6 +117,7 @@ slapp.message('.*', ['direct_mention', 'direct_message'], (msg) => {
 var server = slapp.attachToExpress(express())
 
 server.get('/healthz', (req, res) => {
+  console.log('health check')
   res.send(`ok ${process.env.VERSION}\n`)
 })
 
