@@ -3,5 +3,6 @@ description: ☝️☝️ Check out the README ☝️☝️ in the repo for setu
 avatar: .beepboop/avatar.png
 
 health_check:
-  protocol: tcp
+  protocol: http
+  path: /healthz
 
