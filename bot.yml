@@ -4,4 +4,4 @@ avatar: .beepboop/avatar.png
 
 health_check:
   protocol: http
-  path: /fubar
+  path: /healthz
